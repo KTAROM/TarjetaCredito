@@ -30,8 +30,9 @@ namespace TarjetaCredito.Entidades
         public string Usuario { get => _usuario; set => _usuario = value; }
         public int IdCliente { get => _idCliente; set => _idCliente = value; }
 
-     public string DisplayTarjeta
+     public string MostrarTarjeta
         {
+           
             get { return (IdCliente + " ) " + Enum.GetName(typeof(TipoTarjeta), Tipo) + " - " + NroPlastico.ToString() + " Límite de crédito " + LimiteCompra.ToString("0.00")); }
         }
       

@@ -29,7 +29,7 @@ namespace TarjetaCredito.Negocio
         {
             this._lstClientes = _MapCliente.TraerTodos();
             return _lstClientes;
-            
+
         }
 
         public string GenerarNro(Tarjeta tarjeta)
@@ -42,7 +42,7 @@ namespace TarjetaCredito.Negocio
             { prefijo = "42008100"; }
             else
             {
-                if(tarjeta.Tipo==2)
+                if (tarjeta.Tipo == 2)
                 {
                     prefijo = "89004500";
                     ultimos3dígitos = tarjeta.IdCliente;
@@ -59,7 +59,7 @@ namespace TarjetaCredito.Negocio
         public bool ComprobarLimit(string limite)
         {
             int importe = int.Parse(limite);
-            if(importe<1000 || importe>50000)
+            if (importe < 1000 || importe > 50000)
             {
                 return false;
             }
@@ -73,7 +73,7 @@ namespace TarjetaCredito.Negocio
             {
                 Operacion = _MapTarjeta.AgregarTarjeta(NuevaTarjeta);
             }
-           
+
             return Operacion;
         }
 
@@ -103,13 +103,13 @@ namespace TarjetaCredito.Negocio
                     ClienteSeleccionado = c;
                 }
             }
-            
+
             if (ClienteSeleccionado != null && ClienteSeleccionado.Cuenta != null)
             { return true; }
             else
-            { throw new ClienteSinCuenta ("El cliente no tiene cuenta"); }
-            
-            if(NuevaTarjeta.LimiteCompra < ClienteSeleccionado.Cuenta.Saldo*18)
+            { throw new ClienteSinCuenta("El cliente no tiene cuenta"); }
+
+            if (NuevaTarjeta.LimiteCompra < ClienteSeleccionado.Cuenta.Saldo * 18)
             {
                 return true;
             }
@@ -118,9 +118,9 @@ namespace TarjetaCredito.Negocio
                 throw new ClienteSinLimite("El cliente no posee saldo");
             }
         }
-         public List<Tarjeta> TraerTarjetas()
+        public List<Tarjeta> TraerTarjetas()
         {
-           _lstTarjetas=_MapTarjeta.ListarTarjetas();
+            _lstTarjetas = _MapTarjeta.ListarTarjetas();
             return _lstTarjetas;
         }
         public int CantidadPlastico()
@@ -132,7 +132,7 @@ namespace TarjetaCredito.Negocio
         {
             double suma = 0;
             double promedio;
-            foreach(Tarjeta tar in _lstTarjetas)
+            foreach (Tarjeta tar in _lstTarjetas)
             {
                 suma += tar.LimiteCompra;
             }
@@ -140,5 +140,30 @@ namespace TarjetaCredito.Negocio
             promedio = suma / CantidadPlastico();
             return promedio;
         }
+
+        public List<string> Display
+        {
+            get
+            {
+                List<string> Datos = new List<string>();
+
+                foreach (Tarjeta tar in TraerTarjetas())
+                {
+                    foreach (Cliente cli in ListarClientes())
+                    {
+                        if (cli.Id == tar.IdCliente)
+                        {
+                            Datos.Add(tar.MostrarTarjeta + " " + cli.Nombre);
+                        }
+                    }
+                }
+
+
+                return Datos;
+            }
+
+        }
+
+        
     }
 }

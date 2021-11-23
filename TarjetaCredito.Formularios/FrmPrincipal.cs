@@ -130,11 +130,13 @@ namespace TarjetaCredito.Formularios
         private void lstTarjetas_Load()
         {
             lstTarjetas.DataSource = null;
-            lstTarjetas.DataSource = _Tarjeta.TraerTarjetas();
-            lstTarjetas.DisplayMember = "DisplayTarjeta";
+            lstTarjetas.DataSource = _Tarjeta.Display;
+            
             txtEmitidos.Text = _Tarjeta.CantidadPlastico().ToString();
             txtPromedio.Text = _Tarjeta.LimitePromedio().ToString();
 
         }
+
+       
     }
 }

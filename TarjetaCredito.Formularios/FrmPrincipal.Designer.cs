@@ -178,15 +178,15 @@ namespace TarjetaCredito.Formularios
             // lstTarjetas
             // 
             this.lstTarjetas.FormattingEnabled = true;
-            this.lstTarjetas.Location = new System.Drawing.Point(395, 61);
+            this.lstTarjetas.Location = new System.Drawing.Point(395, 48);
             this.lstTarjetas.Name = "lstTarjetas";
-            this.lstTarjetas.Size = new System.Drawing.Size(342, 134);
+            this.lstTarjetas.Size = new System.Drawing.Size(342, 173);
             this.lstTarjetas.TabIndex = 14;
             // 
             // lblEmitidos
             // 
             this.lblEmitidos.AutoSize = true;
-            this.lblEmitidos.Location = new System.Drawing.Point(392, 247);
+            this.lblEmitidos.Location = new System.Drawing.Point(392, 280);
             this.lblEmitidos.Name = "lblEmitidos";
             this.lblEmitidos.Size = new System.Drawing.Size(135, 13);
             this.lblEmitidos.TabIndex = 15;
@@ -195,7 +195,7 @@ namespace TarjetaCredito.Formularios
             // lblPromedio
             // 
             this.lblPromedio.AutoSize = true;
-            this.lblPromedio.Location = new System.Drawing.Point(392, 284);
+            this.lblPromedio.Location = new System.Drawing.Point(392, 317);
             this.lblPromedio.Name = "lblPromedio";
             this.lblPromedio.Size = new System.Drawing.Size(82, 13);
             this.lblPromedio.TabIndex = 16;
@@ -204,7 +204,7 @@ namespace TarjetaCredito.Formularios
             // txtPromedio
             // 
             this.txtPromedio.Enabled = false;
-            this.txtPromedio.Location = new System.Drawing.Point(551, 281);
+            this.txtPromedio.Location = new System.Drawing.Point(551, 314);
             this.txtPromedio.Name = "txtPromedio";
             this.txtPromedio.Size = new System.Drawing.Size(100, 20);
             this.txtPromedio.TabIndex = 17;
@@ -212,7 +212,7 @@ namespace TarjetaCredito.Formularios
             // txtEmitidos
             // 
             this.txtEmitidos.Enabled = false;
-            this.txtEmitidos.Location = new System.Drawing.Point(551, 237);
+            this.txtEmitidos.Location = new System.Drawing.Point(551, 277);
             this.txtEmitidos.Name = "txtEmitidos";
             this.txtEmitidos.Size = new System.Drawing.Size(100, 20);
             this.txtEmitidos.TabIndex = 18;
