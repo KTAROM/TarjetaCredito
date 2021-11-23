@@ -1,0 +1,13 @@
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\bin\Debug\TarjetaCredito.Negocio.dll
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\bin\Debug\TarjetaCredito.Negocio.pdb
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\bin\Debug\TarjetaCredito.Entidades.dll
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\bin\Debug\TarjetaCredito.Entidades.pdb
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\obj\Debug\TarjetaCredito.Negocio.csproj.AssemblyReference.cache
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\obj\Debug\TarjetaCredito.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\obj\Debug\TarjetaCredito.Negocio.csproj.CopyComplete
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\obj\Debug\TarjetaCredito.Negocio.dll
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\obj\Debug\TarjetaCredito.Negocio.pdb
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\bin\Debug\TarjetaCredito.Datos.dll
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\bin\Debug\TarjetaCredito.Datos.pdb
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Negocio\bin\Debug\Newtonsoft.Json.xml

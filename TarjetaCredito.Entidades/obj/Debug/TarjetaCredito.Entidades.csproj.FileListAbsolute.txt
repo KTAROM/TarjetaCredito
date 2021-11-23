@@ -1,0 +1,6 @@
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Entidades\bin\Debug\TarjetaCredito.Entidades.dll
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Entidades\bin\Debug\TarjetaCredito.Entidades.pdb
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Entidades\obj\Debug\TarjetaCredito.Entidades.csproj.AssemblyReference.cache
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Entidades\obj\Debug\TarjetaCredito.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Entidades\obj\Debug\TarjetaCredito.Entidades.dll
+C:\Users\Romina\source\repos\TarjetaCredito\TarjetaCredito.Entidades\obj\Debug\TarjetaCredito.Entidades.pdb
